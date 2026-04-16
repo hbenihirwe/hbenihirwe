@@ -8,15 +8,15 @@
 }
 
 :root {
-  --bg:          #0f1117;
-  --bg-card:     #161b27;
-  --bg-card-hover: #1c2333;
-  --border:      #1e2a3a;
-  --accent:      #4f8ef7;
-  --accent-dim:  #2d5cbf;
-  --text:        #e2e8f0;
-  --text-muted:  #8892a4;
-  --text-faint:  #4a5568;
+  --bg:          #1a1f2e;
+  --bg-card:     #222839;
+  --bg-card-hover: #29304a;
+  --border:      #2e3a50;
+  --accent:      #5b9cf6;
+  --accent-dim:  #3a72d4;
+  --text:        #f0f4f8;
+  --text-muted:  #9aafc4;
+  --text-faint:  #5a6e85;
   --green:       #43d9ad;
   --font-sans:   'Inter', system-ui, sans-serif;
   --font-mono:   'Fira Code', monospace;
@@ -247,7 +247,7 @@ section {
 }
 
 .hero-name {
-  font-size: clamp(2.4rem, 6vw, 4.5rem);
+  font-size: clamp(1.9rem, 4.5vw, 3.2rem);
   font-weight: 700;
   line-height: 1.1;
   margin-bottom: 12px;
