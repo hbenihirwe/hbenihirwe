@@ -1,16 +1,19 @@
-## Hi there 👋
+# Honette Gloria Benihirwe
 
-<!--
-**hbenihirwe/hbenihirwe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Software Development Engineer** — Austin, Texas
 
-Here are some ideas to get you started:
+Data & backend engineer with 2+ years of experience building distributed data pipelines and analytics platforms at scale. Currently at Expedia Group working with Apache Spark, Kafka, Airflow, Python, and AWS.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### Portfolio
+[hbenihirwe.github.io/hbenihirwe](https://hbenihirwe.github.io/hbenihirwe/)
+
+### Contact
+- Email: benihgloria@gmail.com
+- LinkedIn: [honette-gloria-benihirwe](https://www.linkedin.com/in/honette-gloria-benihirwe)
+
+---
+
+### Skills
+Python · PySpark · Apache Spark · Hadoop · Hive · Kafka · Airflow · SQL · Java · Kotlin · AWS · Docker · Kubernetes · Datadog · Splunk · REST APIs · GraphQL
