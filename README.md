@@ -2,7 +2,7 @@
 
 **Software Development Engineer** — Austin, Texas
 
-Data & backend engineer with 2+ years of experience building distributed data pipelines and analytics platforms at scale. Currently at Expedia Group working with Apache Spark, Kafka, Airflow, Python, and AWS.
+Backend engineer with 2+ years of experience building distributed systems and scalable platforms. Currently at Expedia Group working with Apache Spark, Kafka, Airflow, Python, and AWS. Expanding into fullstack development.
 
 ---
 
