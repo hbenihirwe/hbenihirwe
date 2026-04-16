@@ -8,15 +8,15 @@
 }
 
 :root {
-  --bg:          #1a1f2e;
-  --bg-card:     #222839;
-  --bg-card-hover: #29304a;
-  --border:      #2e3a50;
-  --accent:      #5b9cf6;
-  --accent-dim:  #3a72d4;
-  --text:        #f0f4f8;
-  --text-muted:  #9aafc4;
-  --text-faint:  #5a6e85;
+  --bg:          #0d1b2a;
+  --bg-card:     #132336;
+  --bg-card-hover: #1a2f47;
+  --border:      #1e3a56;
+  --accent:      #7eb8f7;
+  --accent-dim:  #4d8fd4;
+  --text:        #e8f1f8;
+  --text-muted:  #8fb4d4;
+  --text-faint:  #4a7a9b;
   --green:       #43d9ad;
   --font-sans:   'Inter', system-ui, sans-serif;
   --font-mono:   'Fira Code', monospace;
