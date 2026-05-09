@@ -57,34 +57,35 @@
       <div class="about-grid">
         <div class="about-text">
           <p>
-            I'm a Software Development Engineer with 2+ years of experience building
+            I'm a Software Development Engineer with 3+ years of experience building
             backend systems and distributed platforms that support large-scale, high-volume
             business workflows. I care about writing code that is reliable, maintainable,
             and built to last.
           </p>
           <p>
             I hold a B.S. in Computer Information Technology from Methodist University and
-            currently work at Expedia Group in Austin, Texas. My day-to-day involves Apache
-            Spark, Kafka, Airflow, Python, and cloud infrastructure on AWS.
+            currently work at Expedia Group in Austin, Texas. My day-to-day involves
+            Kotlin, Spring Boot, GraphQL, TypeScript/React, and distributed backend services.
           </p>
           <p>
-            I'm currently expanding into frontend development on my journey to becoming a
-            fullstack engineer — always looking for new challenges that push me to grow.
+            I started my career in data engineering and backend reliability, and have since
+            grown into full-stack ownership of consumer-facing pricing and content features.
+            I'm always looking for new challenges that push me to grow.
           </p>
         </div>
         <div class="about-skills">
           <h3>Technologies I work with</h3>
           <ul class="skills-list">
-            <li>Python / PySpark</li>
-            <li>Java / Kotlin</li>
-            <li>Apache Spark</li>
-            <li>Hadoop / Hive</li>
-            <li>Kafka / Airflow</li>
-            <li>SQL</li>
-            <li>AWS</li>
-            <li>Docker / Kubernetes</li>
+            <li>Kotlin / Java</li>
+            <li>Spring Boot</li>
+            <li>GraphQL</li>
+            <li>TypeScript / React</li>
+            <li>Python / Airflow</li>
+            <li>Kafka / SQL</li>
+            <li>Redis / Cassandra</li>
+            <li>AWS / Cloud Infra</li>
             <li>Datadog / Splunk</li>
-            <li>REST APIs / GraphQL</li>
+            <li>REST APIs / CI/CD</li>
           </ul>
         </div>
       </div>
@@ -102,28 +103,57 @@
           <div class="timeline-card">
             <div class="timeline-meta">
               <div>
-                <h3 class="timeline-role">Software Development Engineer</h3>
+                <h3 class="timeline-role">Software Development Engineer II</h3>
                 <span class="timeline-company">Expedia Group — Austin, Texas</span>
               </div>
-              <span class="timeline-date">Aug 2022 — Present</span>
+              <span class="timeline-date">Oct 2023 — Present</span>
             </div>
             <ul class="timeline-bullets">
-              <li>Built and supported distributed data processing pipelines using Apache Spark (PySpark), Hadoop, Kafka, and Airflow for high-volume analytics and reporting.</li>
-              <li>Developed Python-based data transformation and validation logic to ensure accuracy and reliability for downstream consumers.</li>
-              <li>Optimized Spark jobs and data workflows to improve performance, scalability, and fault tolerance in production.</li>
-              <li>Created monitoring dashboards and alerts using Datadog and Splunk to track pipeline health and performance.</li>
-              <li>Contributed to backend services in Java/Kotlin integrating with data platforms and analytics systems.</li>
-              <li>Collaborated with analysts, product managers, and engineers to translate requirements into scalable data solutions.</li>
+              <li>Own end-to-end delivery of consumer-facing pricing and content features across search, property details, and checkout — spanning backend services, GraphQL models, and React/TypeScript frontend components.</li>
+              <li>Implement pricing correctness features including multi-currency support, fee breakdowns, and cancellation policy changes, coordinating across backend teams, design, legal, and checkout.</li>
+              <li>Design and run feature flag experiments to validate pricing and UX changes at scale, then clean up legacy experiment code once results are confirmed.</li>
+              <li>Build server-driven UI features for property pages, enabling content and layout changes to be controlled without client releases.</li>
+              <li>Improve service reliability by maintaining CI/CD pipelines, defining monitoring and alerting standards, and documenting on-call runbooks.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Kotlin</span>
+              <span>Spring Boot</span>
+              <span>GraphQL</span>
+              <span>TypeScript</span>
+              <span>React</span>
+              <span>Feature Flags</span>
+              <span>Datadog</span>
+              <span>CI/CD</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <div>
+                <h3 class="timeline-role">Software Development Engineer I</h3>
+                <span class="timeline-company">Expedia Group — Austin, Texas</span>
+              </div>
+              <span class="timeline-date">Aug 2022 — Oct 2023</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Built data pipelines and Airflow DAGs for partner onboarding analytics, including backfill and catchup strategies to safely reprocess historical event data.</li>
+              <li>Helped define a unified onboarding funnel and the reporting views used to track conversion, time-to-complete, and channel attribution.</li>
+              <li>Improved flight search reliability by redesigning diagnostic logging, raising automated test coverage, and building production alerts for offer-count anomalies and provider latency spikes.</li>
+              <li>Investigated production issues involving cache behavior and session staleness, clearly separating platform-wide problems from service-local regressions.</li>
+              <li>Contributed to security hygiene by tightening how credentials and configuration are managed across code and deployment pipelines.</li>
             </ul>
             <div class="timeline-tags">
               <span>Python</span>
-              <span>PySpark</span>
-              <span>Kafka</span>
               <span>Airflow</span>
-              <span>Hadoop</span>
-              <span>Java / Kotlin</span>
-              <span>AWS</span>
+              <span>Kafka</span>
+              <span>Java</span>
+              <span>SQL</span>
+              <span>Splunk</span>
               <span>Datadog</span>
+              <span>Redis</span>
             </div>
           </div>
         </div>
@@ -152,36 +182,78 @@
   <section id="projects">
     <div class="container">
       <h2 class="section-title"><span class="section-num">03.</span> Projects</h2>
-      <p class="section-subtitle">A selection of things I've built.</p>
+      <p class="section-subtitle">Selected professional work from my time at Expedia Group.</p>
       <div class="projects-grid">
 
         <div class="project-card">
           <div class="project-top">
             <svg class="project-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-              <path d="M3 7l9-4 9 4v10l-9 4-9-4V7z"/><path d="M12 3v18M3 7l9 4 9-4"/>
+              <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
             </svg>
-            <div class="project-links">
-              <a href="#" aria-label="View source on GitHub" title="GitHub">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58v-2.17c-3.34.73-4.04-1.61-4.04-1.61-.54-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.81 1.3 3.5 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.13 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
-                </svg>
-              </a>
-              <a href="#" aria-label="View live project" title="Live">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
-                </svg>
-              </a>
-            </div>
           </div>
-          <h3 class="project-name">Project Name</h3>
+          <h3 class="project-name">Hotel Pricing Platform</h3>
           <p class="project-desc">
-            A short description of what this project does, the problem it solves,
-            and what makes it interesting technically.
+            Owned end-to-end delivery of the hotel pricing experience across search, property
+            details, and checkout. Implemented price breakdowns, cancellation policy updates,
+            multi-currency support, and seasonal fee handling — keeping what travelers see
+            accurate and consistent across every step of the booking flow. Changes spanned
+            backend services, GraphQL models, and React/TypeScript UI components.
+          </p>
+          <div class="project-tags">
+            <span>Kotlin</span>
+            <span>Spring Boot</span>
+            <span>GraphQL</span>
+            <span>TypeScript</span>
+            <span>React</span>
+            <span>Feature Flags</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <svg class="project-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/>
+            </svg>
+          </div>
+          <h3 class="project-name">ML-Powered Content Personalization</h3>
+          <p class="project-desc">
+            Integrated a machine learning recommendation service into hotel property pages to
+            drive which promotional content is shown per traveler context. Used structured
+            concurrency and strict timeouts so slow or unavailable model responses could never
+            degrade page load. Exposed the feature behind experiment flags to enable A/B
+            testing of model-driven content against the existing baseline.
+          </p>
+          <div class="project-tags">
+            <span>Kotlin</span>
+            <span>Coroutines</span>
+            <span>REST APIs</span>
+            <span>ML Integration</span>
+            <span>Feature Flags</span>
+            <span>A/B Testing</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <svg class="project-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+            </svg>
+          </div>
+          <h3 class="project-name">Flight Search Reliability & Observability</h3>
+          <p class="project-desc">
+            Focused on making a high-traffic flight search backend easier to debug and keep
+            stable in production. Redesigned diagnostic logging to trace searches end-to-end,
+            raised automated test coverage, and built targeted alerts for offer-count anomalies,
+            provider error spikes, and latency regressions. Investigated and clearly reported
+            root causes on production incidents involving caching and upstream service behavior.
           </p>
           <div class="project-tags">
             <span>Java</span>
-            <span>Spring Boot</span>
-            <span>PostgreSQL</span>
+            <span>Distributed Systems</span>
+            <span>Redis</span>
+            <span>Splunk</span>
+            <span>Datadog</span>
+            <span>Observability</span>
           </div>
         </div>
 
@@ -190,58 +262,46 @@
             <svg class="project-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
               <ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3"/>
             </svg>
-            <div class="project-links">
-              <a href="#" aria-label="View source on GitHub" title="GitHub">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58v-2.17c-3.34.73-4.04-1.61-4.04-1.61-.54-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.81 1.3 3.5 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.13 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
-                </svg>
-              </a>
-              <a href="#" aria-label="View live project" title="Live">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
-                </svg>
-              </a>
-            </div>
           </div>
-          <h3 class="project-name">Another Project</h3>
+          <h3 class="project-name">Partner Onboarding Analytics Pipeline</h3>
           <p class="project-desc">
-            Describe what this project does and why you built it. Focus on the
-            technical challenge or the outcome it achieves.
+            Built data pipelines and workflow orchestration jobs to power partner onboarding
+            analytics, including safe backfill and catchup strategies for historical event data.
+            Helped define a unified onboarding funnel — from first visit through first booking —
+            and the reporting views used to track conversion, time-to-complete, and channel
+            attribution at scale.
           </p>
           <div class="project-tags">
             <span>Python</span>
-            <span>FastAPI</span>
-            <span>Redis</span>
+            <span>Airflow</span>
+            <span>Kafka</span>
+            <span>SQL</span>
+            <span>Data Pipelines</span>
+            <span>Analytics</span>
           </div>
         </div>
 
         <div class="project-card">
           <div class="project-top">
             <svg class="project-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-              <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
+              <rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 17h3m0 0h3m-3 0v-3m0 3v3"/>
             </svg>
-            <div class="project-links">
-              <a href="#" aria-label="View source on GitHub" title="GitHub">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58v-2.17c-3.34.73-4.04-1.61-4.04-1.61-.54-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.81 1.3 3.5 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.13 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
-                </svg>
-              </a>
-              <a href="#" aria-label="View live project" title="Live">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
-                </svg>
-              </a>
-            </div>
           </div>
-          <h3 class="project-name">Third Project</h3>
+          <h3 class="project-name">Vrbo Server-Driven UI & Tertiary Content</h3>
           <p class="project-desc">
-            Another project description. Mention the stack, the scale, or the
-            interesting engineering decisions you made.
+            Implemented server-driven content features for vacation rental property pages,
+            including expandable sections for house rules and important info, and
+            experiment-controlled banner logic on search and property pages. Changes
+            coordinated across backend services, web clients, and native apps to ensure a
+            consistent experience without requiring synchronized client releases.
           </p>
           <div class="project-tags">
             <span>Kotlin</span>
-            <span>Kafka</span>
-            <span>Kubernetes</span>
+            <span>Spring Boot</span>
+            <span>GraphQL</span>
+            <span>TypeScript</span>
+            <span>React</span>
+            <span>Experimentation</span>
           </div>
         </div>
 
